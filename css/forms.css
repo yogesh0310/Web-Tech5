@@ -1,0 +1,172 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type="text"],select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .includedet
+  {
+     margin-top: 20px;
+     font-size: 15px;
+     font-weight: bold;
+     margin-top: 20px;
+  }
+  .headtitle{
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 20px;
+  }
+  #decription{
+   height:80px;
+  }
+  .fileuploadicons{
+   font-size: 30px;
+  }
+  .form-btn
+  {
+    background-color: #2a65ea;
+    color:white;
+    font-weight: bold;
+    border :1px solid white;
+    width:17%;
+    margin-left: 3.5%;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+
+  }
+  @media screen and (max-width: 600px) {
+    .fileuploadicons{
+      font-size: 20px;
+     }
+     .tab{
+       margin-left:-10%;
+     }
+     .tabcontent{
+       margin-left:-10%;
+     }
+    .tab label{
+      font-size: 15px !important;
+    
+    }
+    .head{
+      margin-left:-9.5%;
+      font-size:18px;
+      font-weight: bold;
+    }
+    .form-container{
+      margin-left:2.7%;
+      width:95%;
+    }
+    .form-btn{
+      margin-left: 8%;
+      width:35%;
+    }
+    #namebox{
+      margin-left:-9%;
+    }
+    #descs{
+      margin-left:-9%;
+    }
+    .note{
+      margin-left:-9%;
+    }
+  }
+#imgset1
+{
+    display: block;
+}
+  .terms{
+      font-size: 10px;
+      color: grey;
+  }
+  #upload_button {
+  display: inline-block;
+}
+#upload_button input[type=file] {
+  display:none;
+}
+.img{
+    padding:20px;
+    border:1px solid #226fff;
+}
+.btn{
+    margin-top:10px;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+.navbar{
+  background-color:	rgb(247, 248, 249);
+}
+a{
+  text-decoration: none;
+}
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .form-container{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+  }
+
+#desc
+{
+    
+    color: #002f34;
+    font-weight: 50;
+    margin-bottom: 2;
+    
+}
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab label {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.2s;
+    font-size: 17px;
+  }
+  .tab label:hover {
+    
+    background-color: #ddd;
+  }
+
+  .tab label.active {
+    background-color: white;
+    border-bottom : 2px solid blue;
+    
+  }
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+#confirmlocation,#reviewdetails,#postnow
+{
+    padding-left: 25px;
+    
+}
+
+
